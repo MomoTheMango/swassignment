@@ -1,0 +1,80 @@
+#include <string>
+#include <vector>
+#include <map>
+
+using namespace std;
+
+int solution(int a, int b, int c, int d) {
+    int answer = 0;
+    map<int, int> dice;
+    
+    dice[a]++;
+    dice[b]++;
+    dice[c]++;
+    dice[d]++;
+    
+    auto it = dice.begin();
+    int p = 0;
+    int q = 0;
+    int r = 0;
+    int min = 0;
+    
+    if(dice.size() == 1){
+        answer = 1111 * a;
+    }
+    else if(dice.size() == 2 && it->second == 2){
+        p = it->first;
+        it++;
+        q = it->first;
+        answer = (p + q) * abs(q - p);
+    }
+    else if(dice.size() == 2 && it->second == 1 || it->second==3){
+        p = 0;
+        q = 0;
+        if(it->second == 1){
+            q = it->first;
+            it++;
+            p = it->first;
+        }
+        else if(it->second == 3){
+            p = it->first;
+            it++;
+            q = it->first;
+        }
+        answer = (10 * p + q) * (10 * p + q);
+    }
+    else if(dice.size() == 3){
+        if(it->second == 2){
+            p = it->first;
+            it++;
+            q = it->first;
+            it++;
+            r = it->first;
+        }
+        it++;
+        if(it->second == 2){
+            p = it->first;
+            it--;
+            q = it->first;
+            it++;
+            it++;
+            r = it->first;
+        }
+        it++;
+        if(it->second == 2){
+            p = it->first;
+            it--;
+            q = it->first;
+            it--;
+            r = it->first;
+        }
+        answer = q * r;
+    }
+    else{
+        it = dice.begin();
+        min = it->first;
+        answer = min;
+    }
+    
+    return answer;
+}

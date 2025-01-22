@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65D3A6E5-D6A1-4C5E-96B0-B1704FA19D0F}|GlimCodingAssignment\\GlimCodingAssignment.vcxproj|C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\GlimCodingAssignmentDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65D3A6E5-D6A1-4C5E-96B0-B1704FA19D0F}|GlimCodingAssignment\\GlimCodingAssignment.vcxproj|solutionrelative:GlimCodingAssignment\\GlimCodingAssignmentDlg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D3A6E5-D6A1-4C5E-96B0-B1704FA19D0F}|GlimCodingAssignment\\GlimCodingAssignment.vcxproj|C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\GlimCodingAssignment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65D3A6E5-D6A1-4C5E-96B0-B1704FA19D0F}|GlimCodingAssignment\\GlimCodingAssignment.vcxproj|solutionrelative:GlimCodingAssignment\\GlimCodingAssignment.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65D3A6E5-D6A1-4C5E-96B0-B1704FA19D0F}|GlimCodingAssignment\\GlimCodingAssignment.vcxproj|C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{65D3A6E5-D6A1-4C5E-96B0-B1704FA19D0F}|GlimCodingAssignment\\GlimCodingAssignment.vcxproj|solutionrelative:GlimCodingAssignment\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\resource.h",
+              "RelativeDocumentMoniker": "GlimCodingAssignment\\resource.h",
+              "ToolTip": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\resource.h",
+              "RelativeToolTip": "GlimCodingAssignment\\resource.h",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-22T06:46:03.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlimCodingAssignment.cpp",
+              "DocumentMoniker": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\GlimCodingAssignment.cpp",
+              "RelativeDocumentMoniker": "GlimCodingAssignment\\GlimCodingAssignment.cpp",
+              "ToolTip": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\GlimCodingAssignment.cpp",
+              "RelativeToolTip": "GlimCodingAssignment\\GlimCodingAssignment.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAawDsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T06:45:58.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlimCodingAssignmentDlg.cpp",
+              "DocumentMoniker": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\GlimCodingAssignmentDlg.cpp",
+              "RelativeDocumentMoniker": "GlimCodingAssignment\\GlimCodingAssignmentDlg.cpp",
+              "ToolTip": "C:\\Users\\m0m0t\\Desktop\\Coding Test\\GlimCodingAssignment\\GlimCodingAssignmentDlg.cpp",
+              "RelativeToolTip": "GlimCodingAssignment\\GlimCodingAssignmentDlg.cpp",
+              "ViewState": "AgIAAKwBAAAAAAAAAAAawNoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-22T06:45:42.782Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

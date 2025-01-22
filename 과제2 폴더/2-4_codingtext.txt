@@ -1,0 +1,25 @@
+#include <string>
+#include <vector>
+
+using namespace std;
+
+int solution(vector<vector<int>> dots) {
+    int answer = 0;
+    
+    vector<int> dot1 = dots[0];
+    vector<int> dot2 = dots[1];
+    vector<int> dot3 = dots[2];
+    vector<int> dot4 = dots[3];
+    
+    if(double(double(dot1[1]-dot2[1])/double(dot1[0]-dot2[0])) == double(double(dot3[1]-dot4[1])/double(dot3[0]-dot4[0]))){
+        answer = 1;
+    }
+    if(double(double(dot1[1]-dot3[1])/double(dot1[0]-dot3[0])) == double(double(dot2[1]-dot4[1])/double(dot2[0]-dot4[0]))){
+        answer = 1;
+    }
+    if(double(double(dot1[1]-dot4[1])/double(dot1[0]-dot4[0])) == double(double(dot2[1]-dot3[1])/double(dot2[0]-dot3[0]))){
+        answer = 1;
+    }
+    
+    return answer;
+}
