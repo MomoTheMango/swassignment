@@ -1,2 +1,1 @@
-# swassignment
-그림 SW직군 과제입니다
+#그림 SW 과제입니다
